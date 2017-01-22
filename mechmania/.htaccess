@@ -1,0 +1,29 @@
+<Files .svn>
+	Order Allow,Deny
+	Deny From All
+</Files>
+
+<Files README.ACM>
+	Order Allow,Deny
+	Deny From All
+</Files>
+
+DirectoryIndex index.html
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# This rule allows us to use extensionless paths, in
+# accordance with W3C recommendations.
+RewriteRule ^([^.]+)$ $1.html [PT]
+RewriteRule ^([^.]+).aspx$ $1.html [PT]
+RewriteRule ^([^.]+).php$ $1.html [PT]
+# These four rules allow us to follow REST principles while
+# maintaining a flat filespace.
+RewriteRule ^registration/(.+)$ reg_$1 [PT]
+RewriteRule ^registration/$ registration [PT]
+RewriteRule ^mechmania/(.+)$ mech_$1 [PT]
+RewriteRule ^mechmania/$ mechmania [PT]
+# This is a legacy redirect since we started with too many
+# MechMania pages.
+RewriteRule ^mech_details([.]aspx)?$ mechmania [R=permanent]

@@ -1,0 +1,317 @@
+body {
+  background-color: white;
+  color:#00104a;
+  font-size: 14px;
+  font-family: "Gill Sans Light", "GillSans Light", Corbel, "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color:#A22227;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#417EA3;
+}
+
+#header {
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:655px;
+  padding:12px 0;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+#banner {
+  border: none;
+}
+
+#corner_holder {
+  margin-left:auto;
+  margin-right:auto;
+  width:655px;
+}
+
+#content {
+   background-color: white;
+   padding-top: 10px;
+   width: 655px;
+   margin:auto;
+   margin-bottom: 15px;
+}
+
+#footer {
+  border-top:1px solid #a22227;
+  clear:both;
+  font-size:12px;
+  text-align:center;
+  padding: 8px 0 8px 0;
+  width:100%;
+}
+
+#marquee {
+  border:1px solid #0491d3;
+  color:#0491d3;
+  font-weight:bold;
+  padding:4px;
+  text-align:center;
+  width:100%;
+}
+
+#menu {
+  padding: 1px 0 1px 6px;
+  float:left;
+  line-height: 130%;
+}
+
+#menu UL {
+  font-size:12px;
+  font-weight: bold;
+  list-style-type:none;
+  margin-left:5px;
+  padding-left:4px;
+}
+
+#menu UL A {
+  color:#00104A;
+}
+
+#menu UL UL A {
+  color:#417EA3;
+}
+
+#menu UL A:hover { 
+  color:#a22227;
+}
+
+#main {
+  float:left;
+  margin: 0 auto;
+  padding:4px 4px 4px 20px;
+  line-height: 130%;
+  width: 504px;
+}
+
+#main_jobfair {
+  margin: 0 auto;
+  padding:4px 4px 4px 20px;
+  line-height: 130%;
+  width: 504px;
+}
+
+#frame {
+  border-spacing:0;
+  float:left;
+  height:100%;
+  width:504px;
+  padding:5px 0px 0px 5px;
+}
+
+#frame .left {
+  border-right:2px solid #00104A;
+  /*border-right:2px solid #00104A;*/
+  /*border-right:2px solid #d39104;*/
+  color:#00104A;
+  /*color:#d39104;*/
+  empty-cells:hide;
+  height:8px;
+  padding-right:7px;
+  text-align:right;
+  vertical-align:top;
+  white-space: nowrap;
+  font-variant: small-caps;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu UL, .left {
+  font-family: "Gill Sans", "GillSans", Corbel, sans-serif;
+  letter-spacing: -0.06em;
+}
+
+TH.left { 
+  text-transform: uppercase;
+}
+
+span.right {
+  color:#417EA3;
+}
+
+#frame TH.right {
+  color:#417EA3;
+  /*color:#d39104;*/
+  font-weight:normal;
+  padding-left:5px;
+  text-align:left;
+  text-transform:uppercase;
+  vertical-align:bottom;
+}
+
+#frame TH#abstracts {
+  color:#417EA3;
+  /*color:#d39104;*/
+  font-weight:normal;
+  padding-left:5px;
+  text-align:left;
+  text-transform:uppercase;
+  vertical-align:bottom;
+}
+
+#frame TD.right {
+  padding: 7px 0 7px 7px;
+}
+
+#frame TD.right P {
+  margin-right: 7px;
+}
+
+#frontpagetext {
+  clear:right;
+  float:right;
+  padding: 7px 0 0 0;
+  text-align:justify;
+  width:100%;
+}
+
+#photo_corners { padding:0;}
+
+#talkphoto {
+  background-image:url(images/front_b1.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  border:1px solid #a22227; 
+  height:249px;
+  width:500px;
+}
+
+
+
+form th { 
+  text-align: right;
+  vertical-align: top;
+}
+
+form td {
+   vertical-align: top;
+}
+
+form, .abstract, .bio, #schedule td {
+  font-size: 90%;
+  
+}
+
+.section_title {
+  /*color:#d35f0c;*/
+  color:#417EA3;
+  font-size:18px;
+  margin: 16px 0 16px 0;
+  text-transform:uppercase;
+}
+
+.section {
+  margin-left:5px;
+}
+
+.talktitle {
+  color:#a22227;
+  font-variant:small-caps;
+  font-weight:bold;
+}
+
+.abstract, .bio {
+  margin-left:21px;
+}
+
+.aboutspeaker {
+  color:#a22227;
+  margin-left:13px;
+  font-variant:small-caps;
+  font-weight:bold;
+}
+
+#frame td .speakername {
+  margin-top:6px;
+  color:#417EA3;
+  text-transform:small-caps;
+  letter-spacing: 0em;
+  font-weight:bold;
+}
+
+.speakername a {
+   color:#417EA3;
+}
+
+.speakername a:hover {
+   color:#A22227;
+}
+
+.top {
+  font-size: 80%;
+  text-align: right;
+  border-bottom: 2px solid #00104A;  
+}
+
+#schedule th {
+  text-align:left;
+  border-bottom: 1px solid black;
+  padding: 3px 8px;
+  color:#417EA3;
+}
+
+#schedule th.day {
+  border-bottom:2px solid black;
+  padding: 16px 0px 8px 0px;
+  text-align:center;
+  color:#00104A;
+}
+
+#schedule td, #schedule th {
+  line-height: 22px;
+}
+
+#schedule td {
+  padding: 3px 10px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#schedule .time { 
+  font-variant: small-caps;
+  text-align: right;
+  min-width: 90px;
+}
+
+#videos th {
+  text-align:left;
+  padding-right:40px;
+}
+
+sup {
+  font-size: 70%;
+}
+
+table.speakers, #schedule { 
+  border-collapse: collapse;
+} 
+
+.scheduletalktitle {
+  color:#417EA3;
+  letter-spacing: -0.06em;
+  font-size:12px;
+}
+
+.schedulespeakerlink {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.lastspeaker {
+   border-bottom: 0;
+}
